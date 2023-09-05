@@ -1,0 +1,63 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "onetwofive",
+            "request": "launch",
+            "mainClass": "onetwofive",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "onetwofour",
+            "request": "launch",
+            "mainClass": "onetwofour",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "onetwothree",
+            "request": "launch",
+            "mainClass": "onetwothree",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "onetwotwo",
+            "request": "launch",
+            "mainClass": "onetwotwo",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "one",
+            "request": "launch",
+            "mainClass": "one",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "two",
+            "request": "launch",
+            "mainClass": "two",
+            "projectName": "java_fd0f1fa4"
+        }
+    ]
+}
