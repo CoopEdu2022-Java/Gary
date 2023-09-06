@@ -1,15 +1,22 @@
-import java.util.Scanner;
 public class onetwoone {
     public static void main(String[] args) {
-        int n = 0;
-        int month = 0;
-        while (true) {
-            n++;
-            month+=3;
-
-        }
+        int months = 12;
+        printRabbitPairs(months);
     }
-    private static int how(int num) {
+    
+    public static void printRabbitPairs(int months) {
+        int previous= 1; 
+        int current = 1; 
         
+        
+        
+        for (int i = 2; i <= months; i++) {
+            int new1 = previous + current; 
+            
+            System.out.println(i+"       "+ new1);
+            
+            previous = current;
+            current = new1;
+        }
     }
 }
