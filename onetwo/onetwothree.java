@@ -1,3 +1,4 @@
+package onetwo;
 import java.util.Scanner;
 public class onetwothree {
     public static void main(String[] args){

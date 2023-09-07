@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "onethreethree",
+            "request": "launch",
+            "mainClass": "onethree.onethreethree",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
+            "name": "onethreeone",
+            "request": "launch",
+            "mainClass": "onethree.onethreeone",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
             "name": "onetwoseven",
             "request": "launch",
             "mainClass": "onetwoseven",
