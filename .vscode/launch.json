@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "examone",
+            "request": "launch",
+            "mainClass": "test.examone",
+            "projectName": "java_fd0f1fa4"
+        },
+        {
+            "type": "java",
             "name": "onethreethree",
             "request": "launch",
             "mainClass": "onethree.onethreethree",
