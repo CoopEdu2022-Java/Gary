@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 import java.util.Scanner;
 
-public class examone {
+public class exameone {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String input1 = input.nextLine();
         int input2 = input.nextInt();
         ArrayList<String> m1 = chain(input1, input2);
-        ArrayList<String> m2 = havebinary(input2, input2);
+        ArrayList<String> m2 = havebinary(m1.size(), input2);
         System.out.println(compare(m1, m2));
 
     }
@@ -18,7 +18,7 @@ public class examone {
         int n1=0;
         int n2=input2;
         ArrayList<String> chain1 = new ArrayList<String>();
-        for (int i=0; i<=input1.length()/input2; i++) {
+        for (int i=0; i<input1.length()/input2; i++) {
             if (n2 > input1.length()) {
                 n2 = input1.length();
             }
@@ -34,19 +34,24 @@ public class examone {
     
     public static String toBinary(int num, int input2) {
         String str = "";
-        StringBuilder sb = new StringBuilder(input2);
-        for (int i=0; i<input2; i++) {
-            sb.append("0");
+        StringBuilder sb = new StringBuilder();
+        if (num == 0) {
+            return "0".repeat(input2);
+        }
+        if (num == 1) {
+            return "0".repeat(input2-1) + "1";
         }
         while (num != 0) {
             str = num % 2 + str;
             num = num / 2;
         }
-        sb.insert(sb.length()-str.length(), str);
-        if (sb.length() > input2) {
-            sb.delete(0, sb.length()-input2);
+        if (sb.length()!= input2) {
+            for (int i=0; i<input2; i++) {
+                sb.insert(0, "0");
+            }
         }
         return sb.toString();
+        
     }
     public static ArrayList<String> havebinary(int num, int input2) {
         ArrayList<String> chain1 = new ArrayList<String>();
@@ -72,7 +77,7 @@ public class examone {
         chain1.sort(null);
         chain2.sort(null);
         chain1 = Duplicate(chain1);
-        
+        chain2 = Duplicate(chain2);
         for (int j=0; j<chain1.size(); j++) {
             if (!chain1.get(j).equals(chain2.get(j))) {
                 result = false;
