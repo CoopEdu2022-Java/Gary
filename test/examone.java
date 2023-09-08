@@ -42,6 +42,9 @@ public class examone {
             num = num / 2;
         }
         sb.insert(sb.length()-str.length(), str);
+        if (sb.length() > input2) {
+            sb.delete(0, sb.length()-input2);
+        }
         return sb.toString();
     }
     public static ArrayList<String> havebinary(int num, int input2) {
