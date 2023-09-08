@@ -1,6 +1,7 @@
 package test;
 
 import java.util.ArrayList;
+
 import java.util.Scanner;
 
 public class examone {
@@ -55,20 +56,31 @@ public class examone {
         System.out.println(chain1);
         return chain1;
     }
+    public static ArrayList<String> Duplicate(ArrayList<String> list) {
+        ArrayList<String> newList = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            if (!newList.contains(list.get(i))) {
+                newList.add(list.get(i));
+            }
+        }
+        
+
+        return newList;
+    }
     public static boolean compare(ArrayList<String> chain1, ArrayList<String> chain2) {
         boolean result = true;
         chain1.sort(null);
         chain2.sort(null);
-        for (int i=0; i<chain1.size(); i++) {
-            for (int j=0; j<chain2.size(); j++) {
-                if (!chain1.get(i).equals(chain2.get(j))) {
-                    result = false;
-                }
+        chain1 = Duplicate(chain1);
+        
+        for (int j=0; j<chain1.size(); j++) {
+            if (!chain1.get(j).equals(chain2.get(j))) {
+                result = false;
             }
         }
+        
         return result;
     }
     
 }
-
 
