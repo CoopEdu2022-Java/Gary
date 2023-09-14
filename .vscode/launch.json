@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "H6",
+            "request": "launch",
+            "mainClass": "twoone.H6",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H5",
+            "request": "launch",
+            "mainClass": "twoone.H5",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H2",
+            "request": "launch",
+            "mainClass": "twoone.H2",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H1",
+            "request": "launch",
+            "mainClass": "twoone.H1",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
             "name": "examone",
             "request": "launch",
             "mainClass": "test.examone",
