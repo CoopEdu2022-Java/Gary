@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "H9",
+            "request": "launch",
+            "mainClass": "twoone.H9",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H7",
+            "request": "launch",
+            "mainClass": "twoone.H7",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "try1",
+            "request": "launch",
+            "mainClass": "twoone.try1",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
             "name": "H6",
             "request": "launch",
             "mainClass": "twoone.H6",
