@@ -4,11 +4,12 @@ public class examtwo{
     public static void main(String[] args){
         
     }
+    
 }
-interface getArea{
+interface Shape{
     public double getArea();
 }
-class Circle implements getArea{
+class Circle implements Shape{
     private double r;
     public Circle(double r){
         this.r = r;
@@ -17,7 +18,7 @@ class Circle implements getArea{
         return Math.PI * r * r;
     }
 }
-class Rectangle implements getArea{
+class Rectangle implements Shape{
     private double a;
     private double b;
     public Rectangle(double a, double b){
@@ -29,7 +30,7 @@ class Rectangle implements getArea{
     }
 }
 
-class Triangle implements getArea{
+class Triangle implements Shape{
     private double a;
     private double b;
     

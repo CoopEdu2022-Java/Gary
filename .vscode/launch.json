@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SleepSort",
+            "request": "launch",
+            "mainClass": "H6.SleepSort",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "student08",
+            "request": "launch",
+            "mainClass": "H6.student08",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "genericParameter1",
+            "request": "launch",
+            "mainClass": "H6.genericParameter1",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "Test10",
+            "request": "launch",
+            "mainClass": "H6.Test10",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H6_1",
+            "request": "launch",
+            "mainClass": "H6.H6_1",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "TestPool",
+            "request": "launch",
+            "mainClass": "H5.TestPool",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "TestPc2",
+            "request": "launch",
+            "mainClass": "H5.TestPc2",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "TestPc",
+            "request": "launch",
+            "mainClass": "H5.TestPc",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "Lock",
+            "request": "launch",
+            "mainClass": "H5.Lock",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "UnafeBuyTicket",
+            "request": "launch",
+            "mainClass": "H5.UnafeBuyTicket",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H4_1_9",
+            "request": "launch",
+            "mainClass": "H4_1.H4_1_9",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H4_1_8",
+            "request": "launch",
+            "mainClass": "H4_1.H4_1_8",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "onethreeone",
+            "request": "launch",
+            "mainClass": "onethree.onethreeone",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "H4_1_3",
+            "request": "launch",
+            "mainClass": "H4_1.H4_1_3",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
+            "name": "app",
+            "request": "launch",
+            "mainClass": "app",
+            "projectName": "Gary_fcff3643"
+        },
+        {
+            "type": "java",
             "name": "H9",
             "request": "launch",
             "mainClass": "twoone.H9",
